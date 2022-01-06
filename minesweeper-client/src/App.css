@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: max-content;
+  min-width: 100vw;
+  background-color: lightyellow;
+}
+.header {
+  width: 50vw;
+}
+.boardRow {
+  margin: 0px;
+  padding: 0%;
+  vertical-align: top;
+}
+.cell {
+  background-color: #aaa;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+}
+.cell:hover {
+  background-color: #777;  
+}
+.cell:active {
+  background-color: aliceblue;
+}
+.v1 {
+  color: rgb(81, 81, 255);
+}
+.v2 {
+  color: rgb(6, 240, 6);
+}
+.v3 {
+  color: red;
+}
+.v4 {
+  color: rgb(255, 154, 154);
+}
+.v5 {
+  color: rgb(255, 139, 255);
+}
+.v6 {
+  color: rgb(179, 0, 255);
+}
+.v7 {
+  color: rgb(75, 255, 237);
+}
+.v8 {
+  color: rgb(0, 251, 255);
+}
+.vm {
+  border-color: red;
+}
+.flg {
+  border-color: yellow;
+}
+#status {
+  float: right;
+  margin: 0%;
+}
+#status p {
+  margin: 0%;
+}
+#playersInfo > div {
+  display: inline-block;
+  color: #aaa;
+}
+.you {
+  background-color: rgb(61, 42, 148);
+}
+.opponent {
+  background-color: rgb(146, 62, 67);
+}
+.checked {
+  border-color: gray;
+  background-color: #333;
+}
